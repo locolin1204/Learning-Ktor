@@ -1,6 +1,6 @@
 # Learning Ktor
 
-This repository mainly focusing on understanding the basics of `routing` and `websocket` in `Ktor`.
+This repository mainly focuses on understanding the basics of `routing` and `websocket` in `Ktor`.
 
 GET `/` 
 > print Hello World
@@ -15,7 +15,7 @@ GET `/user/lastname`
 > implement nested route
 
 GET `/list` 
-> implement rout extension function
+> implement route extension function
 
 GET `/articles?sort={new/old}`
 > implement type-safe routing [GET]
@@ -28,7 +28,7 @@ WS `/echo`
 > echo received message
 
 WS `/chat`
-> create pool of users in the chat and echo message to other users
+> create pool of users in the chat and echo messages to other users
 
 WS `/customer`
 > implement receive and send serialized objects
